@@ -1,3 +1,120 @@
-.socialIcons{
-    width: 100vw !important;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  font-family: "Roboto", sans-serif;}
+
+
+section.nav-geo{
+    padding: 10px 0px;
 }
+.toggler-light{
+    display: inline-block;
+    height: 20px ;
+    width: 50px;
+    background-color:#AAB4BE;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.nav-item{
+    color: black;
+}
+.sun{
+    position: absolute;
+    left: 0;
+    top: -5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #001E3C;
+}
+
+.flex-geo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-geo{
+    color: #6851FF !important;
+}
+
+.nav-geo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 91vw;
+    max-width: 1300px;
+    margin: 0 auto;
+    
+}
+
+.navbar-toggler{
+    border: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* responsiveness */
+
+@media only screen  and (max-width : 991) {
+    .nav-geo{
+      width: 100vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.heroHeading{
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.purple{
+    color: #6851FF;
+}
+.heroIMG{
+
+}
+.tasweer{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.founder-card {
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+    }
+
+    .founder-image {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .highlight {
+      color: #6f42c1; /* Purple */
+      font-weight: 600;
+    }
+
+    .heart {
+      color: #e25555;
+    }
