@@ -120,6 +120,10 @@ section.nav-geo{
 
 
       .team-card:hover {
+  transform: translateX();
+  transform: translateY(-5px);
+  transform: scale(1.05);
+  transition: transform 0.3s ease
   }
 
 .heroHeading{
